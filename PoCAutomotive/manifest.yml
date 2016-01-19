@@ -1,0 +1,8 @@
+applications:
+- path: target/PoCAutomotive.war
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: PoCAutomotive
+  host: paolo-PoCAutomotive
+  disk_quota: 1024M
